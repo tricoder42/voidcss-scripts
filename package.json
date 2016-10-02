@@ -1,0 +1,31 @@
+{
+  "name": "voidcss-scripts",
+  "version": "0.0.0",
+  "description": "Build configuration for voidcss plugins",
+  "bin": {
+    "voidcss-scripts": "bin/voidcss-scripts.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tricoder42/voidcss-scripts.git"
+  },
+  "keywords": [
+    "voidcss",
+    "plugin",
+    "configuration"
+  ],
+  "author": "Tomáš Ehrlich <tomas.ehrlich@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tricoder42/voidcss-scripts/issues"
+  },
+  "homepage": "https://github.com/tricoder42/voidcss-scripts#readme",
+  "dependencies": {
+    "cross-spawn": "^4.0.2",
+    "mocha": "^3.1.0",
+    "sass-true": "^2.1.3"
+  }
+}
